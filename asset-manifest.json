@@ -1,10 +1,13 @@
 {
   "files": {
+    "main.css": "/Exploring-National-Parks/static/css/main.3de69353.css",
     "main.js": "/Exploring-National-Parks/static/js/main.63848b04.js",
     "index.html": "/Exploring-National-Parks/index.html",
+    "main.3de69353.css.map": "/Exploring-National-Parks/static/css/main.3de69353.css.map",
     "main.63848b04.js.map": "/Exploring-National-Parks/static/js/main.63848b04.js.map"
   },
   "entrypoints": [
+    "static/css/main.3de69353.css",
     "static/js/main.63848b04.js"
   ]
 }
