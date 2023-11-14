@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Exploring-National-Parks/static/css/main.3de69353.css",
-    "main.js": "/Exploring-National-Parks/static/js/main.63848b04.js",
+    "main.css": "/Exploring-National-Parks/static/css/main.c92e053a.css",
+    "main.js": "/Exploring-National-Parks/static/js/main.ce1dee59.js",
+    "static/media/yosemite.jpg": "/Exploring-National-Parks/static/media/yosemite.a246d9227ce82bf23b9b.jpg",
     "index.html": "/Exploring-National-Parks/index.html",
-    "main.3de69353.css.map": "/Exploring-National-Parks/static/css/main.3de69353.css.map",
-    "main.63848b04.js.map": "/Exploring-National-Parks/static/js/main.63848b04.js.map"
+    "main.c92e053a.css.map": "/Exploring-National-Parks/static/css/main.c92e053a.css.map",
+    "main.ce1dee59.js.map": "/Exploring-National-Parks/static/js/main.ce1dee59.js.map"
   },
   "entrypoints": [
-    "static/css/main.3de69353.css",
-    "static/js/main.63848b04.js"
+    "static/css/main.c92e053a.css",
+    "static/js/main.ce1dee59.js"
   ]
 }
