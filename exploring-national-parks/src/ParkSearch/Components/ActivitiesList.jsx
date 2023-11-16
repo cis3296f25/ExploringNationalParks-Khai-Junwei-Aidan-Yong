@@ -23,8 +23,16 @@ function ActivitiesList() {
     }, []);
 
     //Get list of activities in correct form for dropdown
-    const activities = posts?.map((post) => { return {value: post.name, label: post.name} });
+    const activities = posts?.map((post) => { return {value: post.id, label: post.name} });
     const animatedComponents = makeAnimated()
+
+    //Get selected options from dropdown
+    const [selectedOptions, setSelectedOptions] = useState(null);
+
+    const handleChange = (selectedOptions) => {
+        setSelectedOptions(selectedOptions);
+        console.log(selectedOptions);
+    }
 
     return (
         <div className='activitiesList'>
@@ -45,9 +53,12 @@ function ActivitiesList() {
                         isMulti
                         className="basic-multi-select activityDropdown"
                         classNamePrefix="select"
+                        onChange={handleChange}
                         options={activities}
                     />
-                <button className="searchButton">Search</button>
+                <button className="searchButton" onClick = {() => {
+                    console.log({posts});
+                }}>Search</button>
             </div>
             <br></br>
             <div class="search-button-wrapper">
