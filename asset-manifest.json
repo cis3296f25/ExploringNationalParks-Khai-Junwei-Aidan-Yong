@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Exploring-National-Parks/static/css/main.c92e053a.css",
-    "main.js": "/Exploring-National-Parks/static/js/main.ce1dee59.js",
+    "main.css": "/Exploring-National-Parks/static/css/main.f5748f8a.css",
+    "main.js": "/Exploring-National-Parks/static/js/main.04a991df.js",
+    "static/media/glacier.png": "/Exploring-National-Parks/static/media/glacier.e73d646f004244edf087.png",
     "static/media/yosemite.jpg": "/Exploring-National-Parks/static/media/yosemite.a246d9227ce82bf23b9b.jpg",
     "index.html": "/Exploring-National-Parks/index.html",
-    "main.c92e053a.css.map": "/Exploring-National-Parks/static/css/main.c92e053a.css.map",
-    "main.ce1dee59.js.map": "/Exploring-National-Parks/static/js/main.ce1dee59.js.map"
+    "main.f5748f8a.css.map": "/Exploring-National-Parks/static/css/main.f5748f8a.css.map",
+    "main.04a991df.js.map": "/Exploring-National-Parks/static/js/main.04a991df.js.map"
   },
   "entrypoints": [
-    "static/css/main.c92e053a.css",
-    "static/js/main.ce1dee59.js"
+    "static/css/main.f5748f8a.css",
+    "static/js/main.04a991df.js"
   ]
 }
