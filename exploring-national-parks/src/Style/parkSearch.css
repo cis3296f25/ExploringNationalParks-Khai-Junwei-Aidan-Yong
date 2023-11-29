@@ -72,7 +72,7 @@
 }
 
 .activities-list .activity-dropdown .basic-multi-select {
-    width: 80%;
+    width: 75%;
 }
 
 .park-search .activities-list .search-button {
@@ -83,21 +83,16 @@
 }
 
 .park-holder {
+    padding: 20;
     text-align: center;
-}
-
-.activities-list .park-holder-container {
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
+    margin: auto;
+    justify-content: center;
     width: 80%;
-    border-radius: 10px;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    background-color: rgba(250, 235, 215, 0.5);
 }
 
-.park-image-holder {
-    height: 325px;
-    width: 325px;
+.park-item {
+    background-color: rgba(250, 235, 215, 0.5);
 }
+
 
