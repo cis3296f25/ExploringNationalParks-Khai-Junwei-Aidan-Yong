@@ -2,7 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import { Activities } from '../Functionality/Activities'; // Importing the functionality
 import Select from 'react-select';
-import makeAnimated from 'react-select/animated'
+import makeAnimated from 'react-select/animated';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
 import '../../Style/activitiesList.css';
 import { Link } from 'react-router-dom';
 import { FetchParks } from '../Functionality/FetchParks';
@@ -62,6 +64,17 @@ function ActivitiesList() {
 
                 <button className="activity-search-button" onClick={sendToAPI}>Search</button>
 
+            </div>
+            <div className='park-holder-container'>
+            <Grid container justify="center" spacing={{ xs: 2, md: 3 }} >
+                {parksFiltered?.data.map((info, index) => (
+                    <Grid item xs="auto" key={index}>
+                        <Paper className="park-holder">
+                            <div className="park-image-holder">Hi</div>
+                        </Paper>
+                    </Grid>
+                ))}
+            </Grid>
             </div>
             <br></br>
             <div className="search-button-wrapper" >
