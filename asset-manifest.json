@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/park-test/static/css/main.ebfcd9d5.css",
-    "main.js": "/park-test/static/js/main.4800d6d2.js",
-    "static/media/glacier.png": "/park-test/static/media/glacier.e73d646f004244edf087.png",
-    "static/media/yosemite.jpg": "/park-test/static/media/yosemite.a246d9227ce82bf23b9b.jpg",
-    "index.html": "/park-test/index.html",
-    "main.ebfcd9d5.css.map": "/park-test/static/css/main.ebfcd9d5.css.map",
-    "main.4800d6d2.js.map": "/park-test/static/js/main.4800d6d2.js.map"
+    "main.css": "/Exploring-National-Parks/static/css/main.826e4301.css",
+    "main.js": "/Exploring-National-Parks/static/js/main.fe6b53b8.js",
+    "static/media/glacier.png": "/Exploring-National-Parks/static/media/glacier.e73d646f004244edf087.png",
+    "static/media/yosemite.jpg": "/Exploring-National-Parks/static/media/yosemite.a246d9227ce82bf23b9b.jpg",
+    "index.html": "/Exploring-National-Parks/index.html",
+    "main.826e4301.css.map": "/Exploring-National-Parks/static/css/main.826e4301.css.map",
+    "main.fe6b53b8.js.map": "/Exploring-National-Parks/static/js/main.fe6b53b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebfcd9d5.css",
-    "static/js/main.4800d6d2.js"
+    "static/css/main.826e4301.css",
+    "static/js/main.fe6b53b8.js"
   ]
 }
