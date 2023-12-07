@@ -261,6 +261,16 @@ const Schedule = ({ dates, parkCode, activities}) => {
                 <div key={index} className='individual-date-container'>
                     <div className="date-holder">
                         <h2 id="plan-see-date">{date.toLocaleDateString()}</h2>
+                        {relevantTimeForecast[index]?.startTime === date.toLocaleDateString() ? (
+                            <div className='weather'>
+                                <img
+                                    className="weather-image"
+                                    src={relevantTimeForecast[index]?.icon}
+                                    style={{ width: '50px', height: '50px' }}
+                                ></img>
+                                <p>{relevantTimeForecast[index]?.shortForecast}</p>
+                            </div>
+                        ) : null}
                     </div>
                     <div className='plan-schedule-activities'>
                         <div>
@@ -294,32 +304,7 @@ const Schedule = ({ dates, parkCode, activities}) => {
                 {datesArray && datesArray.length > 0 ? <div id="schedule-title"><h1>Schedule</h1></div> : null}
             </div>
             <div className='dates-container'>
-                {datesArray.map((date, index) => (
-                    <div key={index} className='individual-date-container'>
-                        <h3>{date.toLocaleDateString()}</h3>
-
-                        {/* <img className='weather-image' src={relevantTimeForecast[index]?.icon} style={{ width: '50px', height: '50px' }}></img> */}
-
-                        {relevantTimeForecast[index]?.startTime === date.toLocaleDateString() ? (
-                            <div className='weather'>
-                                <img
-                                    className="weather-image"
-                                    src={relevantTimeForecast[index]?.icon}
-                                    style={{ width: '50px', height: '50px' }}
-                                ></img>
-                                <p>{relevantTimeForecast[index]?.shortForecast}</p>
-                            </div>
-                        ) : null}
-
-
-                        <h3>Morning</h3>
-                        <h3>Afternoon</h3>
-                        <h3>Evening</h3>
-                        <br />
-                    </div>
-
-                ))
-                }
+                
                 <ReturnSchedule />
             </div >
         </div >
