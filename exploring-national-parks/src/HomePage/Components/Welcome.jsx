@@ -1,4 +1,5 @@
 import React from 'react'
+import SpotifyPlaylist from './SpotifyPlaylist'
 
 /**
  * Component representing the welcome section of the homepage.
@@ -15,7 +16,7 @@ const Welcome = () => {
                 Click on the "Park Search" button to search for a park by activity, or click on the "Plan A Trip" button to plan a trip to a park you've already selected.
             </p>
             <div>
-
+                <SpotifyPlaylist />
             </div>
         </div>
     )
