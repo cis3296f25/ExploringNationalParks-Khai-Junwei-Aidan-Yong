@@ -81,6 +81,20 @@ const Filtering = ({updateParkCode, updateDates, updateActivities}) => {
                                 isLoading={parksIsLoading}
                                 options={parksFiltered}
                                 onChange={choice => setParkCode(choice)}
+                                styles={{
+                                    option: (baseStyles) => ({
+                                        ...baseStyles,
+                                        color: 'black',
+                                    }),
+                                    singleValue: (baseStyles) => ({
+                                        ...baseStyles,
+                                        color: 'black',
+                                    }),
+                                    placeholder: (baseStyles) => ({
+                                        ...baseStyles,
+                                        color: 'black',
+                                    }),
+                                }}
                             />
                         </div>
                 </div>
@@ -97,6 +111,24 @@ const Filtering = ({updateParkCode, updateDates, updateActivities}) => {
                                 isLoading={activitiesIsLoading}
                                 options={activities}
                                 onChange={choice => setSelectedOption(choice)}
+                                styles={{
+                                    option: (baseStyles) => ({
+                                        ...baseStyles,
+                                        color: 'black',
+                                    }),
+                                    multiValue: (baseStyles) => ({
+                                        ...baseStyles,
+                                        color: 'black',
+                                    }),
+                                    multiValueLabel: (baseStyles) => ({
+                                        ...baseStyles,
+                                        color: 'black',
+                                    }),
+                                    placeholder: (baseStyles) => ({
+                                        ...baseStyles,
+                                        color: 'black',
+                                    }),
+                                }}
                             />
                         </div>
                 
