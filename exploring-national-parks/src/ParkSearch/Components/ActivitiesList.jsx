@@ -85,6 +85,24 @@ function ActivitiesList() {
                     options={activities}
                     onChange={choice => setSelectedOption(choice)}
                     placeholder="Activities"
+                    styles={{
+                        option: (baseStyles) => ({
+                            ...baseStyles,
+                            color: 'black',
+                        }),
+                        multiValue: (baseStyles) => ({
+                            ...baseStyles,
+                            color: 'black',
+                        }),
+                        multiValueLabel: (baseStyles) => ({
+                            ...baseStyles,
+                            color: 'black',
+                        }),
+                        placeholder: (baseStyles) => ({
+                            ...baseStyles,
+                            color: 'black',
+                        }),
+                    }}
                 />
                 <Select 
                     closeMenuOnSelect={true}
@@ -94,6 +112,24 @@ function ActivitiesList() {
                     isMulti
                     onChange={choice => setSelectedState(choice)}
                     placeholder="States"
+                    styles={{
+                        option: (baseStyles) => ({
+                            ...baseStyles,
+                            color: 'black',
+                        }),
+                        multiValue: (baseStyles) => ({
+                            ...baseStyles,
+                            color: 'black',
+                        }),
+                        multiValueLabel: (baseStyles) => ({
+                            ...baseStyles,
+                            color: 'black',
+                        }),
+                        placeholder: (baseStyles) => ({
+                            ...baseStyles,
+                            color: 'black',
+                        }),
+                    }}
                 />
 
 
